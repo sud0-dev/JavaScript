@@ -1,0 +1,1 @@
+var birthYear = prompt('Date of birth: ');
