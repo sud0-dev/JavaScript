@@ -1,6 +1,6 @@
 function generateCat() {
-    var image = document.createElement('img');
-    var div = document.getElementById('flex-cat-gen');
-    image.src = "http://thecatapi.com/api/images/get?format=src&type=gif&size=small";
-    div.appendChild(image);
+    var CatImage = document.createElement('img');
+    var newElmnt = document.getElementById('flex-cat-gen');
+    CatImage.src = "http://thecatapi.com/api/images/get?format=src&type=gif&size=small";
+    newElmnt.appendChild(CatImage);
 }
